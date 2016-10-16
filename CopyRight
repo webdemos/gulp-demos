@@ -1,0 +1,12 @@
+/*
+Gulp Examples by @chendachao:
+
+* https://github.com/chendachao
+* https://twitter.com/chendachao
+
+Version: <%= version %>
+
+Full source at https://github.com/chendachao/gulp-examples
+
+MIT License, https://github.com/chendachao/gulp-examples/blob/master/LICENSE
+*/

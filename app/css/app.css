@@ -1,0 +1,82 @@
+/* line 1, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+p {
+  margin-bottom: 1em; }
+
+/* line 5, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+.heading {
+  margin-bottom: 0.618em; }
+  /* line 8, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+  .heading.-large, h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px; }
+  /* line 14, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+  .heading.-medium, h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px; }
+  /* line 20, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+  .heading.-small, h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 13.33333px; }
+  /* line 26, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_typography.scss */
+  .heading.-smallest {
+    font-size: 10px;
+    font-weight: bold; }
+
+/* line 1, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/_base.scss */
+body {
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  background-color: #eee;
+  padding: 20px; }
+
+/* line 1, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_header.scss */
+header {
+  height: 50px;
+  background: #eeeeee; }
+
+/* app css stylesheet */
+/* line 3, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em; }
+
+/* line 10, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu:before {
+  content: "["; }
+
+/* line 14, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu:after {
+  content: "]"; }
+
+/* line 18, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu > li {
+  display: inline; }
+
+/* line 22, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em; }
+
+/* line 27, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0; }
+
+/* line 32, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_app.scss */
+.img {
+  background-image: url("../img/beauty.jpg");
+  width: auto;
+  height: 900px; }
+
+/* line 1, C:/Users/dachao.chen/git/gulp-demos/app/scss/styles/elements/_footer.scss */
+footer {
+  height: 50px;
+  background: #eeeeee;
+  width: 71.42857%; }
+
+/*# sourceMappingURL=app.css.map */

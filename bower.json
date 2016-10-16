@@ -1,0 +1,44 @@
+{
+  "name": "bower",
+  "description": "For the one who is not familiar with gulp and want study it.",
+  "main": "index.js",
+  "authors": [
+    "Larry Chen"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/chendachao/gulp-demos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-resource": "1.3.13",
+    "angular-route": "~1.4.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "4.3.0",
+    "html5-boilerplate": "~5.2.0",
+    "jquery": "^2.2.4",
+    "moment": "~2.10.2"
+  },
+  "devDependencies": {
+  },
+  "overrides": {
+    "html5-boilerplate": {
+      "main": [
+        "dist/css/main.css",
+        "dist/css/normalize.css",
+        "dist/js/vendor/modernizr-2.8.3.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}

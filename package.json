@@ -102,6 +102,7 @@
   },
   "dependencies": {
     "node-notifier": "^4.6.0",
+    "pump": "^1.0.2",
     "util": "^0.10.3"
   }
 }

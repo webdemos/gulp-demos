@@ -62,3 +62,7 @@ exports.paths = {
     browserSync.reload(event.path);
   });
 ```
+
+
+### Resources
+- https://github.com/topheman/vanilla-es6-jspm/blob/master/gulp/tasks/build.js
